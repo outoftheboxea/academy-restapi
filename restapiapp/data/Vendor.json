@@ -1,0 +1,38 @@
+{
+    "Vendors": [
+      {
+        "VendorID": "V5001",
+        "VendorName": "Global Logistics Ltd.",
+        "VendorType": "Service Provider",
+        "Address": {
+          "Street": "789 Supply Chain Blvd",
+          "City": "Hamburg",
+          "PostalCode": "20095",
+          "Country": "DE"
+        },
+        "TaxNumber": "DE112233445",
+        "BankDetails": {
+          "IBAN": "DE89370400440532013000",
+          "BIC": "COBADEFFXXX"
+        },
+        "PaymentTerms": "Net 30"
+      },
+      {
+        "VendorID": "V5002",
+        "VendorName": "Precision Tools AG",
+        "VendorType": "Manufacturer",
+        "Address": {
+          "Street": "321 Engineering St",
+          "City": "Stuttgart",
+          "PostalCode": "70173",
+          "Country": "DE"
+        },
+        "TaxNumber": "DE556677889",
+        "BankDetails": {
+          "IBAN": "DE75500105175418444931",
+          "BIC": "PBNKDEFFXXX"
+        },
+        "PaymentTerms": "Net 45"
+      }
+    ]
+  }

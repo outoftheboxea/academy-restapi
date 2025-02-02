@@ -1,0 +1,32 @@
+{
+    "Customers": [
+      {
+        "CustomerID": "C1001",
+        "CustomerName": "ABC Manufacturing Co.",
+        "CustomerType": "Company",
+        "Address": {
+          "Street": "123 Industrial Rd",
+          "City": "Frankfurt",
+          "PostalCode": "60306",
+          "Country": "DE"
+        },
+        "TaxNumber": "DE123456789",
+        "ContactPerson": "John Doe",
+        "ContactEmail": "john.doe@abcmfg.com"
+      },
+      {
+        "CustomerID": "C1002",
+        "CustomerName": "Tech Solutions GmbH",
+        "CustomerType": "Company",
+        "Address": {
+          "Street": "456 Innovation Ave",
+          "City": "Munich",
+          "PostalCode": "80331",
+          "Country": "DE"
+        },
+        "TaxNumber": "DE987654321",
+        "ContactPerson": "Anna Schmidt",
+        "ContactEmail": "anna.schmidt@techsolutions.de"
+      }
+    ]
+  }

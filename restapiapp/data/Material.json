@@ -1,0 +1,24 @@
+{
+    "Materials": [
+      {
+        "MaterialID": "M3001",
+        "MaterialDescription": "Steel Beam 10m",
+        "MaterialType": "Raw Material",
+        "BaseUnit": "EA",
+        "WeightUnit": "KG",
+        "Weight": 15.5,
+        "Price": 25.00,
+        "Currency": "EUR"
+      },
+      {
+        "MaterialID": "M3002",
+        "MaterialDescription": "Aluminum Sheet 2x4m",
+        "MaterialType": "Semi-Finished",
+        "BaseUnit": "EA",
+        "WeightUnit": "KG",
+        "Weight": 8.2,
+        "Price": 50.00,
+        "Currency": "EUR"
+      }
+    ]
+  }

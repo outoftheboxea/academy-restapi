@@ -1,0 +1,30 @@
+{
+    "Employees": [
+      {
+        "EmployeeID": "E2001",
+        "FirstName": "Michael",
+        "LastName": "Weber",
+        "BirthDate": "1985-07-15",
+        "JobDetails": {
+          "Department": "Finance",
+          "Position": "Accountant",
+          "EmployeeType": "Full-Time"
+        },
+        "HireDate": "2020-03-01",
+        "Email": "michael.weber@company.com"
+      },
+      {
+        "EmployeeID": "E2002",
+        "FirstName": "Laura",
+        "LastName": "Müller",
+        "BirthDate": "1992-11-22",
+        "JobDetails": {
+          "Department": "Sales",
+          "Position": "Sales Manager",
+          "EmployeeType": "Full-Time"
+        },
+        "HireDate": "2018-06-10",
+        "Email": "laura.muller@company.com"
+      }
+    ]
+  }
