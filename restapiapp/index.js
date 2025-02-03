@@ -51,6 +51,11 @@ app.get('/objects/:name', async (req, res) => {
   }
 });
 
+// Landing page route
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'landing.html'));
+});
+
 /**
  * Health check endpoint
  */
