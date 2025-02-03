@@ -1,3 +1,9 @@
 {
-    "objects": ["Customer", "Employee", "Material","SalesOrder","Vendor"]
+   "objects":[
+      "Customer",
+      "Employee",
+      "Material",
+      "SalesOrder",
+      "Vendor"
+   ]
 }
