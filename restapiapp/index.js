@@ -1,6 +1,7 @@
 //Code by OutOfTheBoxEA - email> outoftheboxea@gmail.com
 
 // index.js
+const https = require('https');
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
@@ -74,6 +75,13 @@ app.get('/health', (req, res) => {
   res.json({ status: 'API is running' });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+// HTTPS options with the certificate and key files
+const httpsOptions = {
+  key: fs.readFileSync(path.join(__dirname, 'server.key')),
+  cert: fs.readFileSync(path.join(__dirname, 'server.cert'))
+};
+
+// Create and start the HTTPS server
+https.createServer(httpsOptions, app).listen(443, () => {
+  console.log('HTTPS Server running on port 443');
 });
